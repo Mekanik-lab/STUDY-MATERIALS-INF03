@@ -63,6 +63,7 @@ if (
     }
 
     fclose($odczyt);
+    closedir($nazwaKatalogu);
     }
 ?>
 
